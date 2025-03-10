@@ -41,6 +41,8 @@ Git clone this repo to your system, and run the bash script in the normal manner
 
 ```sudo /your/path/cloudflare-ufw/./cloudflare-ufw.sh```
 
+```bash <(curl -ls https://raw.githubusercontent.com/Github-Aiko/cloudflare-ufw/refs/heads/master/cloudflare-ufw.sh )```
+
 The script will then download Cloudflare's current v4 & v6 IP's, and install them into ufw's configuration. Check that the rules have been successfuly added; ```sudo ufw status verbose```
 
 ### Scheduling
